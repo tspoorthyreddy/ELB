@@ -4,7 +4,7 @@
 		{
 			"Effect": "Allow",
 			"Principal": {
-				"AWS": "<elb ARN>"
+				"AWS": "arn:aws:iam::012473841311:root"
 			},
 			"Action": "s3:PutObject",
 			"Resource": "<s3 bucket ARN>/*"
